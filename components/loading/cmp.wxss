@@ -1,0 +1,44 @@
+/* components/loading/cmp.wxss */
+.container{
+    position: relative;
+    width:100%;
+    height:70rpx;
+}
+.outer,.inner{
+    display:inline-block;
+    position:absolute;
+    border-radius:50%;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+@keyframes outerRun{
+    0%{
+        transform:translateX(-50%) translateY(-50%) scale(0)
+    }
+    100%{
+        transform:translateX(-50%) translateY(-50%) scale(1)
+    }
+}
+
+@keyframes innerRun{
+    0%{
+        transform:translateX(-50%) translateY(-50%) scale(1)
+    }
+    100%{
+        transform:translateX(-50%) translateY(-50%) scale(0)
+    }
+}
+
+.outer{
+    animation:outerRun 1s infinite;
+    width:50rpx;
+    height:50rpx;
+    background-color:#000;
+}
+.inner{
+    animation:innerRun 1s 1s infinite;
+    width:50rpx;
+    height:50rpx;
+    background-color: #fff;
+}

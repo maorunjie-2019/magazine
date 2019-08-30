@@ -1,0 +1,22 @@
+/* components/imgText/cmp.wxss */
+.container{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom:20rpx;
+}
+.right .img{
+    width:250rpx;
+    height:250rpx;
+}
+.left .mainTitle{
+    font-size:40rpx;
+    width:11em;
+    margin-bottom:10rpx;
+}
+.left .subTitle{
+    color:rgb(105, 102, 102);
+    font-size:30rpx;
+    width:15em;
+}

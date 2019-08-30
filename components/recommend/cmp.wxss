@@ -1,0 +1,34 @@
+/* components/recommend/cmp.wxss */
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    margin-bottom:20rpx;
+    box-sizing: border-box;
+    padding:0 20rpx;
+    background-color:#fff;
+}
+.title{
+    margin-top:20rpx;
+    font-size:25rpx;
+}
+.date{
+    position:relative;
+    font-size:40rpx;
+    margin-bottom:20rpx;
+}
+.date::after{
+    position:absolute;
+    top:60rpx;
+    left:50%;
+    transform:translateX(-50%);
+    content:"";
+    display:inline-block;
+    width:100rpx;
+    border:1rpx solid #000;
+}
+.img{
+    margin-top:20rpx;
+    width:100%;
+}

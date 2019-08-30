@@ -1,0 +1,4 @@
+<!--components/nav/cmp.wxml-->
+<scroll-view class="container" scroll-into-view="{{viewId}}" scroll-x="{{true}}">
+    <text bindtap="ontap" id="magazine{{index+1}}" data-index="{{index}}" class="item {{index==activeItem?'active':''}}" wx:for="{{magazineTypeArr}}" wx:key="{{this}}">{{item}}</text>
+</scroll-view>

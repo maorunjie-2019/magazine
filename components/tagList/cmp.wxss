@@ -1,0 +1,7 @@
+/* components/tagList/cmp.wxss */
+.container{
+    width:100%;
+    padding:0 20rpx;
+    box-sizing: border-box;
+    background-color:#fff;
+}

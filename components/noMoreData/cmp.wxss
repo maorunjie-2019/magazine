@@ -1,0 +1,7 @@
+/* components/noMoreData/cmp.wxss */
+.container{
+    display:flex;
+    justify-content: center;
+    color:rgb(214, 209, 209);
+    font-size:30rpx;
+}

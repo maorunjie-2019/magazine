@@ -1,0 +1,15 @@
+.container{
+    display:flex;
+    align-items: center;
+    margin-bottom:15rpx;
+}
+.avatar{
+    width:50rpx;
+    height:50rpx;
+    border-radius: 50%;
+    margin-right:20rpx;
+}
+.people,.count{
+    font-size:28rpx;
+    color:rgb(85, 81, 81);
+}

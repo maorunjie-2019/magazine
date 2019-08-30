@@ -1,0 +1,14 @@
+/* components/bigImg/cmp.wxss */
+.container{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    margin-bottom:20rpx;
+}
+.img{
+    width:100%;
+}
+.title{
+    margin-top:20rpx;
+    width:100%;
+}

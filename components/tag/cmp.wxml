@@ -1,0 +1,4 @@
+<!--components/tag/cmp.wxml-->
+<view class="content" data-tagid="{{tagId}}" catchtap="ontap">
+    {{tag}}
+</view>

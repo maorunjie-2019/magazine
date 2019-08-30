@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "articleList-cmp":"/components/articleList/cmp"
+  }
+}

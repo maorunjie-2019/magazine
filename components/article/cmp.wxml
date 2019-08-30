@@ -1,0 +1,41 @@
+<!-- article-cmp -->
+<view class="container">
+    <mark-cmp avatar="{{article.mark.avatar}}" 
+            people="{{article.mark.people}}"
+            count="{{article.mark.count}}">
+    </mark-cmp>
+    <bigimg-cmp wx:if="{{article.type==0}}" 
+                imgSrc="{{article.imgArray}}" 
+                mainTitle="{{article.mainTitle}}">
+    </bigimg-cmp>
+    <imgtext wx:elif="{{article.type==2}}"
+             imgSrc="{{article.imgArray}}" 
+             mainTitle="{{article.mainTitle}}"
+             subTitle="{{article.subHead}}">
+    </imgtext>
+    <nineimg-cmp wx:elif="{{article.type==1}}" 
+                imgSrc="{{article.imgArray}}" 
+                mainTitle="{{article.mainTitle}}">
+    </nineimg-cmp>
+    <video-cmp wx:elif="{{article.type==3}}" 
+                videoId="{{article.video.id}}" 
+                mainTitle="{{article.mainTitle}}" 
+                videoSrc="{{article.video.src}}"
+                posterSrc="{{article.video.poster}}">
+    </video-cmp>
+    <pureText-cmp wx:else mainTitle="{{article.mainTitle}}" 
+                    subTitle="{{article.subHead}}">
+    </pureText-cmp>
+    <view class="operations">
+        <view>
+            <tag-cmp tag="{{article.tag}}" tagId="{{article.tagId}}">
+            </tag-cmp>
+        </view>
+        <view>
+            <more-cmp>
+            </more-cmp>
+            <like-cmp catch:like="onlike" like="{{like}}">
+            </like-cmp>
+        </view>
+    </view>
+</view>

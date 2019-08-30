@@ -1,0 +1,5 @@
+<!--components/like/cmp.wxml-->
+<view class="container">
+    <image class="like" catchtap="ontap" wx:if="{{like}}" src="./image/like.png"/>
+    <image class="unlike" catchtap="ontap" wx:else src="./image/unlike.png"/>
+</view>

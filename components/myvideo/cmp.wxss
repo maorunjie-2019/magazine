@@ -1,0 +1,31 @@
+/* components/myvideo/cmp.wxss */
+.container{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    margin-bottom:20rpx;
+}
+.container .video{
+    width:100%;
+    height:400rpx;
+}
+.container .controls{
+    width:100%;
+    height:400rpx;
+    position:relative;
+}
+.container .controls .poster{
+    width:100%;
+    height:100%;
+}
+.container .controls .playBtn{
+    position:absolute;
+    width:0;
+    height:0;
+    border:50rpx solid transparent;
+    border-left-color:#000;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+}
+

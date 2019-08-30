@@ -1,0 +1,10 @@
+<!--components/articleList/cmp.wxml-->
+<scroll-view class="container" scroll-top="{{scrolltop}}" enable-back-to-top="{{true}}" scroll-y="{{true}}" bindscrolltolower="loadMoreData">
+    <slot></slot>
+    <article catch:changeArticleList="changeArticleList" wx:for="{{articleList}}" wx:key="{{artId}}" article="{{item}}">
+    </article>
+    <loading-cmp wx:if="{{loading}}">
+    </loading-cmp>
+    <noMoreData-cmp wx:if="{{isNoMoreData}}">
+    </noMoreData-cmp>
+</scroll-view>

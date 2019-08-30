@@ -1,0 +1,5 @@
+<!--components/bigImg/cmp.wxml-->
+<view class="container">
+    <image class="img" wx:for="{{imgSrc}}" wx:key="{{this}}" mode="{{imageMode}}" src="{{item}}"/>
+    <text class="title">{{mainTitle}}</text>
+</view>

@@ -1,0 +1,45 @@
+/* pages/mark/mark.wxss */
+page{
+    background-color:rgb(238, 236, 236);
+}
+.userInfoContainer{
+    margin-top:20rpx;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding:20rpx;
+    height:400rpx;
+    background-color:#fff;
+
+}
+.userInfoContainer .userinfo{
+    display:flex;
+    justify-content: space-between;
+}
+.userInfoContainer .userinfo .userNickName{
+    font-size:30rpx;
+}
+.userInfoContainer .userinfo .userAvatar button{
+    width:80rpx;
+    height:80rpx;
+    border-radius: 50%;
+    position:relative;
+}
+.userInfoContainer .userinfo .userAvatar button::after{
+    border:none;
+}
+.userInfoContainer .userinfo .userAvatar button>image{
+    position:absolute;
+    top:0;
+    left:0;
+}
+.userInfoContainer .userinfo .userAvatar image{
+    width:80rpx;
+    height:80rpx;
+    border-radius: 50%;
+}
+.userInfoContainer .share image{
+    width:80rpx;
+    height:80rpx;
+    border-radius:50%;
+}

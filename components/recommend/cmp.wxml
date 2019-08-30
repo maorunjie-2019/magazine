@@ -1,0 +1,6 @@
+<!--components/recommend/cmp.wxml-->
+<view class="container">
+    <view class="date">{{date}}</view>
+    <view class="title">{{recommend.title}}</view>
+    <image class="img" src="{{recommend.imgSrc}}"/>
+</view>

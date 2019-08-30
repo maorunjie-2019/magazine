@@ -1,0 +1,15 @@
+/* components/article/cmp.wxss */
+.container{
+    margin-bottom:20rpx;
+    margin-top:20rpx;
+    width:100%;
+    background-color:#fff;
+    padding:20rpx 0;
+}
+.operations{
+    width:100%;
+    display:flex;
+    padding:0 15rpx;
+    box-sizing: border-box;
+    justify-content: space-between;
+}

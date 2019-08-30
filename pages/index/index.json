@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "articleList-cmp":"/components/articleList/cmp",
+    "nav-cmp":"/components/nav/cmp",
+    "recommend-cmp":"/components/recommend/cmp",
+    "tagList-cmp":"/components/tagList/cmp",
+    "add-cmp":"/components/add/cmp"
+  }
+}

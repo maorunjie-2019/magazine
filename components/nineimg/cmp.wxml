@@ -1,0 +1,6 @@
+<view class="container">
+   <image bindtap="ontap"  wx:if="{{index<9}}" class="img" mode="aspectFill" wx:for="{{imgSrc}}" data-index="{{index}}" wx:key="this" src="{{item}}"/>
+   <view class="mainTitle">
+      <text>{{mainTitle}}</text>
+   </view>
+</view>

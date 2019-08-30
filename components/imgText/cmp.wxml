@@ -1,0 +1,17 @@
+<view class="container">
+    <view class="left">
+        <view class="mainTitle">
+            <text>{{mainTitle}}</text>
+        </view>
+        <view class="subTitle">
+            <text>{{subTitle}}</text>
+        </view>
+    </view>
+    <view class="right">
+        <image class="img" 
+            mode="aspectFill"
+            wx:for="{{imgSrc}}" 
+            wx:key="{{this}}" 
+            src="{{item}}"/>
+    </view>
+</view>

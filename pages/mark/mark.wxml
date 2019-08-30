@@ -1,0 +1,18 @@
+<!--pages/mark/mark.wxml-->
+<view class="userInfoContainer">
+    <view class="userinfo">
+        <view class="userNickName">
+            <text wx:if="{{isSetted}}">{{userinfo.nickName}}</text>
+        </view>
+        <view class="userAvatar" >
+            <image wx:if="{{isSetted}}" src="{{userinfo.avatarUrl}}"/>
+            <button wx:if="{{!isSetted}}" open-type="getUserInfo" bindgetuserinfo="getuserinfo"> 
+                <image src="./images/unlogin.png"/>
+            </button>
+        </view>
+    </view>
+    <view class="share">
+            <image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3289458325,1767138375&fm=26&gp=0.jpg"/>
+    </view>
+</view>
+<articleList-cmp catch:changeArticleList="resetArticleList" wx:if="{{isSetted}}" scrolltop="{{scrollTop}}" articleList="{{likeArticleList}}"></articleList-cmp>

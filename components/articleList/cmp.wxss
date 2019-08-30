@@ -1,0 +1,8 @@
+/* components/articleList/cmp.wxss */
+.container{
+    box-sizing: border-box;
+    padding:0 20rpx;
+    width:100%;
+    height:100%;
+    background-color:rgb(233, 230, 230);
+}

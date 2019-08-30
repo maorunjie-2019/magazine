@@ -1,0 +1,8 @@
+<!--components/loading/cmp.wxml-->
+<view class="container">
+    <view class="outer">
+        
+    </view>
+    <view class="inner">
+        </view>
+</view>

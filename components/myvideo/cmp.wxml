@@ -1,0 +1,12 @@
+<view class="container">
+    <video id="{{videoId}}" class="video" wx:if="{{!posterShow}}" objectFit="fill" src="{{videoSrc}}"></video>
+    <view class="controls" wx:if="{{posterShow}}">
+        <image class="poster"
+             mode="aspectFit" 
+             src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2209242808,4171045306&fm=26&gp=0.jpg"/>
+        <image class="playBtn" bindtap="ontap"/>
+    </view>
+    <view class="title">
+        <text>{{mainTitle}}</text>
+    </view>
+</view>

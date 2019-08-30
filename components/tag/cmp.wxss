@@ -1,0 +1,12 @@
+/* components/tag/cmp.wxss */
+.content{
+    display:inline-block;
+    border:1px solid #000;
+    height:50rpx;
+    padding:5rpx 10rpx;
+    line-height: 50rpx;
+    text-align:center;
+    margin-right:10rpx;
+    margin-bottom:10rpx;
+    font-size:20rpx;
+}

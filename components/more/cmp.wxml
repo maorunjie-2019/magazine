@@ -1,0 +1,6 @@
+<!--components/more/cmp.wxml-->
+<view class="container" catchtap="ontap">
+    <image class="image" 
+    src="./image/more.png" 
+    mode="aspectFit"/>
+</view>

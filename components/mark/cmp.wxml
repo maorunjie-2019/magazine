@@ -1,0 +1,6 @@
+<!--components/mark/cmp.wxml-->
+<view class="container">
+    <image class="avatar" src="{{avatar}}"/>
+    <text class="people">{{people}}等</text>
+    <text class="count">{{count}}人马克了</text>    
+</view>

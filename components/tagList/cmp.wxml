@@ -1,0 +1,7 @@
+<!--components/tagList/cmp.wxml-->
+<view class="container">
+<slot name="before"></slot>
+    <tag-cmp class="item" wx:for="{{tagList}}" wx:key="typeId" tag="{{item.type}}" tagId="{{item.typeId}}">
+    </tag-cmp>
+    <slot name="after"></slot>
+</view>

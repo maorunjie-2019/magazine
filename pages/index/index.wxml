@@ -1,0 +1,9 @@
+<nav-cmp class="nav" activeItem="{{magazineId}}" catch:nav="onnavtap">
+</nav-cmp>
+<articleList-cmp articleList="{{articleList}}" magazineId="{{magazineId}}">
+   <recommend-cmp wx:if="{{recommend}}" slot="before" class="recommend" recommend="{{recommend}}">
+   </recommend-cmp>
+    <tagList-cmp wx:if="{{markList}}" tagList="{{markList}}">
+      <add-cmp slot="before"/>
+   </tagList-cmp>
+</articleList-cmp>

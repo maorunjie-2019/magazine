@@ -1,0 +1,4 @@
+<!--components/noMoreData/cmp.wxml-->
+<view class="container">
+    <text>我是有底线的!</text>
+</view>
